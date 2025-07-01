@@ -1,5 +1,4 @@
 
-
 function personDetailss(){
   const noOfPerson =document.getElementById('noOfPerson').value;
   let personHtml= document.querySelector('.personDetailsGroup');
