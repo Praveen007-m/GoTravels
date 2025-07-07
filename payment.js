@@ -22,6 +22,8 @@ packages.forEach((package)=>{
         costHtml.textContent=`₹ ${amountFormat}`;
         taxCalculation(amount);
         totalAmount(amount, tax);
+
+        document.querySelector('.payment').textContent = `Pay ₹ ${Intl.NumberFormat().format(total)}`;
     }
 });
 
